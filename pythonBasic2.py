@@ -31,3 +31,17 @@ def nl(): #new line
     print('\n')
 
 nl()
+
+x = 5
+y = 10
+
+
+# Relational operators
+print(x == y)   # Output: False
+print(x < y)    # Output: True
+
+
+# Boolean expressions
+print(x < y and y > 0)    # Output: True
+print(x < y or y < 0)     # Output: True
+print(not (x == y))       # Output: True
